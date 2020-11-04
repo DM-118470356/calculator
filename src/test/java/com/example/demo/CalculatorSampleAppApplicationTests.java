@@ -46,6 +46,7 @@ public class CalculatorSampleAppApplicationTests {
             double result = c.calculateResult(); //Act
             assertEquals(0.666666, result, 0.000001); //Assert
         }
+        ///adding a comment in the test class
         
         @Test
         public void calcPower() {
